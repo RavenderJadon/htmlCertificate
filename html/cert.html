@@ -1,0 +1,162 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>certificate</title>
+    <link rel="preconnect" href="https://fonts.gstatic.com" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Source+Serif+Pro:wght@200;300;400&display=swap"
+      rel="stylesheet"
+    />
+    <style>
+* {
+  padding: 0;
+  margin: 0;
+  font-family: "Source Serif Pro", serif;
+}
+
+body {
+  /* padding: 100px; */
+}
+
+.top-border {
+  background-image: url("../images/Background.svg");
+  border: solid 10px #7b1fa1;
+  box-sizing: border-box;
+  height: 100vh;
+}
+.mid-border {
+  margin: 10px;
+  border: solid 3px #7b1fa1;
+  height: 94vh;
+}
+.inner-border {
+  border: solid 3px #fec02b;
+  z-index: 1;
+  margin: -9px 3px -9px -9px;
+  height: 94vh;
+}
+
+.logo {
+  display: flex;
+  justify-content: center;
+  margin-top: 40px;
+}
+
+.logo img {
+  height: 10vh;
+  width: 25vw;
+}
+
+.first-line-height {
+  margin-top: -8px;
+}
+
+.content {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+}
+.heading{
+  padding-top: 50px;
+  font-size: 70px;
+  font-weight: 400;
+}
+.sub-heading{
+  padding-top: 25px;
+  font-size: 30px;
+  letter-spacing: 3px;
+}
+.para{
+  padding-top: 25px;
+  font-size: 20px;
+}
+.color-heading{
+  padding-top: 25px;
+  color: #7b1fa1;
+  word-spacing: 5px;
+  font-size: 30px;
+}
+.serial-no {
+  display: flex;
+  text-align: center;
+  justify-content: center;
+  align-items: center;
+}
+.certificate-text{
+  padding-top: 30px;
+  font-size: 20px;
+}
+.certificate-num{
+  padding-top: 25px;
+  font-size: 25px;
+  font-weight: 900;
+}
+.bottom-date {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  margin-top: 40px;
+}
+.signature{
+  height: 20vh;
+  width: 25vw;
+}
+.date{
+  font-size: 40px;
+  font-weight: 400;
+}
+.border-bottom {
+  padding-top: 10px;
+  border-bottom: 1px solid #7c3ea1;
+}
+.border-bottom-text{
+  padding-top: 10px;
+}
+.stamp-img{
+  padding: auto 20px;
+  width: 150px;
+}
+
+
+    </style>
+  </head>
+  <body>
+    <div class="top-border">
+      <div class="mid-border">
+        <div class="inner-border">
+          <div class="content">
+            <div class="logo">
+              <img src="../images/header_logo.svg" alt="zenpro" />
+            </div>
+            <h1 class="heading">Certificate of Completion</h1>
+            <h2 class="sub-heading">GAURAV SAINI</h2>
+            <p class="para">has successfully completed the course</p>
+            <h2 class="color-heading">"Be a Digital Marketer to make more money"</h2>
+            <div class="serial-no">
+              <p class="certificate-text">Certificate No.</p>
+              <p class="certificate-num">12345-12345-12345</p>
+            </div>
+            <div class="bottom-date">
+              <div>
+                <h2 class="date">27th Feb, 2021</h2>
+                <div class="border-bottom"></div>
+                <p class="border-bottom-text">Completed on</p>
+              </div>
+              <div>
+                <img class="stamp-img" src="../images/Seal.png" alt="stamp" />
+              </div>
+              <div>
+                <h2 class="date">Signature</h2>
+                <div class="border-bottom"></div>
+                <p class="border-bottom-text">CEO, Zenius</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
